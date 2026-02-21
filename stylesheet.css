@@ -134,6 +134,14 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.author-list a {
+  color: #333;
+}
+
+.author-list a:hover {
+  color: #f09228;
+}
+
 .colored-box {
     color: black;
     padding: 20px;
