@@ -137,24 +137,46 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-/* Mobile responsive */
+/* Tablet */
 @media screen and (max-width: 768px) {
   body, td, th, tr, p, a, strong {
-    font-size: 14px;
+    font-size: 15px;
   }
   heading {
-    font-size: 20px;
+    font-size: 22px;
   }
   papertitle {
-    font-size: 14px;
+    font-size: 15px;
   }
   name {
-    font-size: 28px;
+    font-size: 32px;
   }
   .one {
-    width: 120px;
+    width: 130px;
   }
   .one img {
-    width: 120px !important;
+    width: 130px !important;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  body, td, th, tr, p, a, strong {
+    font-size: 13px;
+  }
+  heading {
+    font-size: 18px;
+  }
+  papertitle {
+    font-size: 13px;
+  }
+  name {
+    font-size: 26px;
+  }
+  .one {
+    width: 90px;
+  }
+  .one img {
+    width: 90px !important;
   }
 }
