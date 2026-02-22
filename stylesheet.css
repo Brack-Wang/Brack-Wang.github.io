@@ -155,3 +155,49 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  /* Scale down thumbnail container */
+  .one {
+    width: 100px;
+  }
+  .one img {
+    width: 100px !important;
+  }
+
+  /* Reduce section heading sizes */
+  h2 {
+    font-size: 20px !important;
+  }
+
+  /* News list font size */
+  ul {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+  }
+  ul li {
+    font-size: 14px !important;
+  }
+
+  /* Paper titles */
+  .papertitle {
+    font-size: 15px !important;
+  }
+
+  /* Author names */
+  .author-list a,
+  .author-list strong {
+    font-size: 14px !important;
+  }
+
+  /* Venue */
+  td em {
+    font-size: 14px !important;
+  }
+
+  /* Hide video overlay on mobile, show poster only */
+  .two {
+    display: none;
+  }
+}
