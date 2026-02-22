@@ -148,13 +148,3 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
-
-/* Mobile: show poster image instead of video */
-@media screen and (max-width: 768px) {
-  .pub-thumb video {
-    display: none !important;
-  }
-  .pub-thumb .mobile-poster {
-    display: block !important;
-  }
-}
