@@ -149,12 +149,12 @@ span.highlight {
     border-radius: 10px;
 }
 
-/* Mobile: hide video thumbnails, make text full width */
+/* Mobile: show poster image instead of video */
 @media screen and (max-width: 768px) {
-  .pub-thumb {
+  .pub-thumb video {
     display: none !important;
   }
-  .pub-text {
-    width: 100% !important;
+  .pub-thumb .mobile-poster {
+    display: block !important;
   }
 }
