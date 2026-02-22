@@ -81,32 +81,28 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
-h2 {
-  margin: 0;
-  font-weight: normal;
+heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 28px;
 }
 
-.papertitle {
+papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
 }
 
-.name {
-  padding-top: 20px;
-  margin: 0;
+name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .one {
@@ -141,63 +137,24 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-.author-list a {
-  color: #333;
-}
-
-.author-list a:hover {
-  color: #f09228;
-}
-
-.colored-box {
-    color: black;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 10px;
-}
-
 /* Mobile responsive */
 @media screen and (max-width: 768px) {
-  /* Scale down thumbnail container */
+  body, td, th, tr, p, a, strong {
+    font-size: 14px;
+  }
+  heading {
+    font-size: 20px;
+  }
+  papertitle {
+    font-size: 14px;
+  }
+  name {
+    font-size: 28px;
+  }
   .one {
-    width: 100px;
+    width: 120px;
   }
   .one img {
-    width: 100px !important;
-  }
-
-  /* Reduce section heading sizes */
-  h2 {
-    font-size: 20px !important;
-  }
-
-  /* News list font size */
-  ul {
-    font-size: 14px !important;
-    line-height: 1.6 !important;
-  }
-  ul li {
-    font-size: 14px !important;
-  }
-
-  /* Paper titles */
-  .papertitle {
-    font-size: 15px !important;
-  }
-
-  /* Author names */
-  .author-list a,
-  .author-list strong {
-    font-size: 14px !important;
-  }
-
-  /* Venue */
-  td em {
-    font-size: 14px !important;
-  }
-
-  /* Hide video overlay on mobile, show poster only */
-  .two {
-    display: none;
+    width: 120px !important;
   }
 }
