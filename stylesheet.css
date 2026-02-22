@@ -1,5 +1,5 @@
 /* ===== Font Import ===== */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
 
 /* ===== CSS Reset & Base ===== */
 *, *::before, *::after {
@@ -15,16 +15,16 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 17px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 19px;
   line-height: 1.7;
-  color: #2d3436;
+  color: #000;
   background-color: #fafafa;
 }
 
 /* ===== Layout Container ===== */
 .container {
-  max-width: 860px;
+  max-width: 910px;
   margin: 0 auto;
   padding: 40px 24px 60px;
 }
@@ -54,7 +54,7 @@ a:hover, a:focus {
 
 .bio-text p {
   margin-bottom: 12px;
-  color: #444;
+  color: #000;
 }
 
 .bio-photo {
@@ -71,8 +71,8 @@ a:hover, a:focus {
 
 /* ===== Name ===== */
 .site-name {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: 36px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 44px;
   font-weight: 700;
   color: #1a1a2e;
   text-align: center;
@@ -84,7 +84,7 @@ a:hover, a:focus {
 .social-links {
   text-align: center;
   margin-top: 16px;
-  font-size: 15.5px;
+  font-size: 17px;
 }
 
 .social-links a {
@@ -100,8 +100,8 @@ a:hover, a:focus {
 
 /* ===== Section Headings ===== */
 .section-heading {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: 24px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 26px;
   font-weight: 700;
   color: #1a1a2e;
   margin: 36px 0 16px;
@@ -127,8 +127,8 @@ a:hover, a:focus {
 
 .news-list li {
   padding: 5px 0;
-  font-size: 15.5px;
-  color: #555;
+  font-size: 17px;
+  color: #000;
   border-bottom: 1px solid #f0f0f0;
 }
 
@@ -140,7 +140,7 @@ a:hover, a:focus {
   color: #1a6fb5;
   font-style: normal;
   font-weight: 600;
-  font-size: 14.5px;
+  font-size: 16px;
   min-width: 64px;
   display: inline-block;
 }
@@ -206,8 +206,8 @@ a:hover, a:focus {
 }
 
 .pub-title {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: 17.5px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 19px;
   font-weight: 600;
   color: #1a6fb5;
   line-height: 1.4;
@@ -220,8 +220,8 @@ a:hover, a:focus {
 }
 
 .pub-authors {
-  font-size: 15px;
-  color: #666;
+  font-size: 16.5px;
+  color: #000;
   line-height: 1.6;
   margin-bottom: 4px;
 }
@@ -232,7 +232,7 @@ a:hover, a:focus {
 }
 
 .pub-authors a {
-  color: #666;
+  color: #000;
 }
 
 .pub-authors a:hover {
@@ -240,24 +240,14 @@ a:hover, a:focus {
 }
 
 .pub-venue {
-  font-size: 14.5px;
+  font-size: 16px;
   margin-bottom: 6px;
-}
-
-.pub-venue em {
-  color: #1a6fb5;
+  color: #d35400;
   font-weight: 600;
-  font-style: normal;
-}
-
-.pub-venue strong {
-  color: #e74c3c;
-  font-weight: 600;
-  font-size: 13.5px;
 }
 
 .pub-links {
-  font-size: 14.5px;
+  font-size: 16px;
   margin-bottom: 6px;
 }
 
@@ -271,10 +261,11 @@ a:hover, a:focus {
   margin: 0 4px;
 }
 
+
 .pub-desc {
-  font-size: 14.5px;
-  color: #777;
-  line-height: 1.6;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.55;
   margin-top: 4px;
 }
 
@@ -298,14 +289,14 @@ a:hover, a:focus {
 }
 
 .article-meta {
-  font-size: 14.5px;
+  font-size: 16px;
   color: #999;
   margin-bottom: 6px;
 }
 
 .article-desc {
-  font-size: 15px;
-  color: #666;
+  font-size: 16.5px;
+  color: #333;
   line-height: 1.6;
 }
 
@@ -330,8 +321,8 @@ a:hover, a:focus {
 }
 
 .award-info {
-  font-size: 15.5px;
-  color: #555;
+  font-size: 17px;
+  color: #000;
   line-height: 1.6;
 }
 
@@ -341,7 +332,7 @@ a:hover, a:focus {
 
 .award-info .award-date {
   color: #999;
-  font-size: 14px;
+  font-size: 15px;
   margin-left: 6px;
 }
 
