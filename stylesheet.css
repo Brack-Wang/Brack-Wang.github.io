@@ -111,17 +111,24 @@ h2 {
 
 .one {
   width: 160px;
-  height: 160px;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+.two video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .fade {

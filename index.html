@@ -110,7 +110,7 @@
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 <!-- CIF -->
-<tr onmouseout="cif_stop()" onmouseover="cif_start()">
+<tr>
   <td style="padding:12px 16px;width:20%;vertical-align:top">
     <div class="one">
       <div class="two" id="cif_video">
@@ -146,7 +146,7 @@
 </tr>
 
 <!-- RayMap3R -->
-<tr onmouseout="raymap_stop()" onmouseover="raymap_start()">
+<tr>
   <td style="padding:12px 16px;width:20%;vertical-align:top">
     <div class="one">
       <div class="two" id="raymap_video">
@@ -176,7 +176,7 @@
 </tr>
 
 <!-- CogniMap -->
-<tr onmouseout="cognimap_stop()" onmouseover="cognimap_start()">
+<tr>
   <td style="padding:12px 16px;width:20%;vertical-align:top">
     <div class="one">
       <div class="two" id="cognimap_video">
@@ -211,7 +211,7 @@
 </tr>
 
 <!-- X-Field -->
-<tr onmouseout="xfield_stop()" onmouseover="xfield_start()">
+<tr>
   <td style="padding:12px 16px;width:20%;vertical-align:top">
     <div class="one">
       <div class="two" id="xfield_video">
@@ -249,7 +249,7 @@
 </tr>
 
 <!-- ZECO  -->
-<tr onmouseout="zeco_stop()" onmouseover="zeco_start()">
+<tr>
 <td style="padding:12px 16px;width:20%;vertical-align:top">
   <div class="one">
     <div class="two" id="zeco_video">
@@ -286,7 +286,7 @@
 </tr>
 
 <!-- PCCN-RE -->
-<tr onmouseout="pccn_stop()" onmouseover="pccn_start()">
+<tr>
   <td style="padding:12px 16px;width:20%;vertical-align:top">
     <div class="one">
       <div class="two" id="pccn_video">
@@ -327,7 +327,7 @@
   </tbody></table>
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<tr onmouseout="neuron_stop()" onmouseover="neuron_start()">
+<tr>
   <td style="padding:16px;width:20%;vertical-align:top">
     <div class="one">
       <div class="two" id="neuron_video">
@@ -453,8 +453,8 @@
     function neuron_start() { document.getElementById('neuron_video').style.opacity = "1"; }
     function neuron_stop() { document.getElementById('neuron_video').style.opacity = "0"; }
 
-    // Hide all videos by default, show on hover
-    cif_stop(); raymap_stop(); cognimap_stop(); xfield_stop(); zeco_stop(); pccn_stop(); neuron_stop();
+    // Show all videos by default on desktop
+    cif_start(); raymap_start(); cognimap_start(); xfield_start(); zeco_start(); pccn_start(); neuron_start();
     </script>
 
   </body>
