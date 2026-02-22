@@ -148,3 +148,13 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Mobile: hide video thumbnails, make text full width */
+@media screen and (max-width: 768px) {
+  .pub-thumb {
+    display: none !important;
+  }
+  .pub-text {
+    width: 100% !important;
+  }
+}
