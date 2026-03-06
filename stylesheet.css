@@ -113,7 +113,24 @@ a:hover, a:focus {
 /* ===== News Section ===== */
 .news-list {
   list-style: none;
-  padding: 0;
+  padding: 0 12px 0 0;
+  max-height: 220px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ddd transparent;
+}
+
+.news-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.news-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 2px;
 }
 
 .news-list .news-highlight {
@@ -129,11 +146,6 @@ a:hover, a:focus {
   padding: 5px 0;
   font-size: 17px;
   color: #000;
-  border-bottom: 1px solid #f0f0f0;
-}
-
-.news-list li:last-child {
-  border-bottom: none;
 }
 
 .news-list li em {
@@ -298,6 +310,57 @@ a:hover, a:focus {
   font-size: 16.5px;
   color: #333;
   line-height: 1.6;
+}
+
+/* ===== Work Experience Section ===== */
+.work-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.work-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 10px 16px;
+}
+
+.work-logo {
+  flex-shrink: 0;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-logo img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.work-info {
+  flex: 1;
+}
+
+.work-role {
+  font-size: 19px;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 2px;
+}
+
+.work-meta {
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+.work-desc {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.55;
 }
 
 /* ===== Award Section ===== */
