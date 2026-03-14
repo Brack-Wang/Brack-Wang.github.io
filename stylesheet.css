@@ -363,40 +363,26 @@ a:hover, a:focus {
   line-height: 1.55;
 }
 
-/* ===== Award Section ===== */
-.award-item {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 14px 18px;
-  background: #fff;
-  border-radius: 10px;
-  border: 1px solid #eee;
-}
-
-.award-icon {
-  width: 36px;
-  flex-shrink: 0;
-}
-
-.award-icon img {
-  width: 100%;
-}
-
-.award-info {
+/* ===== Academic Activities Section ===== */
+.activity-list {
   font-size: 17px;
   color: #000;
-  line-height: 1.6;
+  line-height: 1.8;
+  padding-left: 22px;
 }
 
-.award-info a {
+.activity-list li {
+  margin-bottom: 8px;
+}
+
+.activity-list a {
   font-weight: 600;
 }
 
-.award-info .award-date {
+.activity-list .award-date {
   color: #999;
   font-size: 15px;
-  margin-left: 6px;
+  margin-left: 4px;
 }
 
 /* ===== Footer ===== */
