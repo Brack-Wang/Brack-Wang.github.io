@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.7;
   color: #000;
   background-color: #fafafa;
@@ -72,7 +72,7 @@ a:hover, a:focus {
 /* ===== Name ===== */
 .site-name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 44px;
+  font-size: 36px;
   font-weight: 700;
   color: #1a1a2e;
   text-align: center;
@@ -84,7 +84,7 @@ a:hover, a:focus {
 .social-links {
   text-align: center;
   margin-top: 16px;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .social-links a {
@@ -101,7 +101,7 @@ a:hover, a:focus {
 /* ===== Section Headings ===== */
 .section-heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
   color: #1a1a2e;
   margin: 36px 0 16px;
@@ -144,7 +144,7 @@ a:hover, a:focus {
 
 .news-list li {
   padding: 5px 0;
-  font-size: 18px;
+  font-size: 15px;
   color: #000;
 }
 
@@ -152,7 +152,7 @@ a:hover, a:focus {
   color: #1a6fb5;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   min-width: 64px;
   display: inline-block;
 }
@@ -219,7 +219,7 @@ a:hover, a:focus {
 
 .pub-title {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
   color: #1a6fb5;
   line-height: 1.4;
@@ -232,7 +232,7 @@ a:hover, a:focus {
 }
 
 .pub-authors {
-  font-size: 16.5px;
+  font-size: 14px;
   color: #000;
   line-height: 1.6;
   margin-bottom: 4px;
@@ -252,14 +252,14 @@ a:hover, a:focus {
 }
 
 .pub-venue {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 6px;
   color: #d35400;
   font-weight: 600;
 }
 
 .pub-links {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 6px;
 }
 
@@ -275,7 +275,7 @@ a:hover, a:focus {
 
 
 .pub-desc {
-  font-size: 15px;
+  font-size: 13px;
   color: #333;
   line-height: 1.55;
   margin-top: 4px;
@@ -301,13 +301,13 @@ a:hover, a:focus {
 }
 
 .article-meta {
-  font-size: 16px;
+  font-size: 14px;
   color: #999;
   margin-bottom: 6px;
 }
 
 .article-desc {
-  font-size: 16.5px;
+  font-size: 14px;
   color: #333;
   line-height: 1.6;
 }
@@ -345,27 +345,27 @@ a:hover, a:focus {
 }
 
 .work-role {
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
   color: #2d3436;
   margin-bottom: 2px;
 }
 
 .work-meta {
-  font-size: 15px;
+  font-size: 13px;
   color: #999;
   margin-bottom: 6px;
 }
 
 .work-desc {
-  font-size: 15px;
+  font-size: 13px;
   color: #333;
   line-height: 1.55;
 }
 
 /* ===== Academic Activities Section ===== */
 .activity-list {
-  font-size: 17px;
+  font-size: 15px;
   color: #000;
   line-height: 1.8;
   padding-left: 22px;
@@ -381,7 +381,7 @@ a:hover, a:focus {
 
 .activity-list .award-date {
   color: #999;
-  font-size: 15px;
+  font-size: 13px;
   margin-left: 4px;
 }
 
