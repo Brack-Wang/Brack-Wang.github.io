@@ -20,7 +20,7 @@
         <div class="bio-text">
           <h1 class="site-name">Feiran Wang</h1>
           <p>
-            Hi, I'm Feiran, a third-year PhD student at the <a href="https://www.uic.edu/">University of Illinois Chicago</a> under the supervision of Professor <a href="https://tomyan555.github.io/">Yan Yan</a>. This summer, I was a research intern at the <a href="https://www.bosch.com/research/bcai/">Bosch Center for Artificial Intelligence (BCAI)</a>, mentored by Dr. <a href="https://scholar.google.com/citations?user=i__pLDEAAAAJ&hl=en">Xiaoqi Wang</a>.
+            Hi, I'm Feiran, a third-year PhD student at the <a href="https://www.uic.edu/">University of Illinois Chicago</a> under the supervision of Professor <a href="https://tomyan555.github.io/">Yan Yan</a>. In Summer 2026, I was a research intern at the <a href="https://www.bosch.com/research/bcai/">Bosch Center for Artificial Intelligence (BCAI)</a>, mentored by Dr. <a href="https://scholar.google.com/citations?user=i__pLDEAAAAJ&hl=en">Xiaoqi Wang</a>.
             <!-- visiting <a href="https://umich.edu/">University of Michigan, Ann Arbor</a>, advised by Professor <a href="https://www.cai-lab.org/">Dawen Cai</a> -->
           </p>
           <p>
@@ -43,6 +43,11 @@
           </a>
         </div>
       </div>
+
+      <!-- Research Internship Availability -->
+      <p class="internship-banner">
+        I am actively seeking research internship opportunities for Summer 2027. I'd be happy to connect and discuss potential research opportunities.
+      </p>
 
       <!-- News Section -->
       <h2 class="section-heading">News</h2>
@@ -83,6 +88,97 @@
       <!-- Publication Section -->
       <h2 class="section-heading">Publication</h2>
       <div class="pub-list">
+
+        <!-- SpatialMind -->
+        <div class="pub-item" id="spatialmind">
+          <div class="pub-thumb">
+            <!--
+            <div class="video-overlay" id="spatialmind_video" aria-hidden="true">
+              <video width="100%" height="100%" muted autoplay loop playsinline webkit-playsinline poster="image/spatialmind/spatialmind.png">
+                <source src="image/spatialmind/spatialmind.mp4" type="video/mp4">
+              </video>
+            </div>
+            -->
+            <img src="image/spatialmind/spatialmind.png" width="2400" height="1398" alt="SpatialMind: current spatial states, observed dynamics, and future prediction">
+          </div>
+          <div class="pub-info">
+            <a href="https://brack-wang.github.io/spatialmind/" class="pub-title">From Sight to Foresight: Predictive Spatial Reasoning in Vision-Language Models</a>
+            <div class="pub-authors">
+              <strong>Feiran Wang</strong>,
+              <a href="https://scholar.google.com/citations?user=i__pLDEAAAAJ&hl=en">Xiaoqi Wang</a>,
+              Ziwei Li,
+              Wenbin He,
+              <a href="https://tomyan555.github.io/">Yan Yan</a>,
+              Liu Ren
+            </div>
+            <div class="pub-venue pub-preprint">Preprint</div>
+            <div class="pub-links">
+              <a href="https://brack-wang.github.io/spatialmind/">paper</a>
+              <span class="sep">/</span>
+              <a href="https://github.com/Brack-Wang/spatialmind">code</a>
+            </div>
+            <p class="pub-desc">
+              We present SpatialMind, a vision-language model that combines metric geometry and progressive state-chain reasoning to understand observed spatial dynamics and predict future spatial states.
+            </p>
+          </div>
+        </div>
+
+        <!-- Kepler4D -->
+        <div class="pub-item" id="kepler4d">
+          <div class="pub-thumb pub-thumb-4by3">
+            <div class="video-overlay" id="kepler4d_video" aria-hidden="true">
+              <video width="100%" height="100%" muted autoplay loop playsinline webkit-playsinline poster="image/kepler4d/kepler4d.jpg">
+                <source src="image/kepler4d/kepler4d.mp4" type="video/mp4">
+              </video>
+            </div>
+            <img src="image/kepler4d/kepler4d.jpg" width="1614" height="894" alt="Kepler4D: input observations, 4D scene states, and generated future videos">
+          </div>
+          <div class="pub-info">
+            <a href="https://brack-wang.github.io/kepler4d/" class="pub-title">Kepler4D: Controllable Future Video Generation via 4D Scene State Evolution</a>
+            <div class="pub-authors">
+              <strong>Feiran Wang</strong>,
+              <a href="https://scholar.google.com/citations?user=04SJDVoAAAAJ&hl=en">Bin Duan</a>,
+              <a href="https://adreamwu.github.io/">Junyi Wu</a>,
+              <a href="https://scholar.google.com/citations?user=NIv_aeQAAAAJ&hl=en">Gaowen Liu</a>,
+              <a href="https://tomyan555.github.io/">Yan Yan</a>
+            </div>
+            <div class="pub-venue pub-preprint">Preprint</div>
+            <div class="pub-links">
+              <a href="https://brack-wang.github.io/kepler4d/">paper</a>
+              <span class="sep">/</span>
+              <a href="https://github.com/Brack-Wang/kepler4d">code</a>
+            </div>
+            <p class="pub-desc">
+              Kepler4D uses an explicit 4D proxy state and editable object trajectories to guide future video generation, supporting controllable motion and novel viewpoints.
+            </p>
+          </div>
+        </div>
+
+        <!-- ForeAct3D -->
+        <div class="pub-item" id="foreact3d">
+          <div class="pub-thumb">
+            <img src="image/foract3d/foract3d1.jpg" width="1750" height="1034" alt="ForeAct3D: future 3D scene predictions and robotic manipulation results">
+          </div>
+          <div class="pub-info">
+            <a href="https://github.com/anthonytao80-crypto/ForeAct3D" class="pub-title">ForeAct3D: Policy-Grounded Future World Modeling for VLA Policies</a>
+            <div class="pub-authors">
+              <a href="https://www.linkedin.com/in/zhetao">Zhe Tao</a>,
+              <strong>Feiran Wang</strong>,
+              <a href="https://scholar.google.com/citations?user=NIv_aeQAAAAJ&hl=en">Gaowen Liu</a>,
+              Ramana Rao Kompella,
+              <a href="https://tomyan555.github.io/">Yan Yan</a>
+            </div>
+            <div class="pub-venue pub-preprint">Preprint</div>
+            <div class="pub-links">
+              <a href="https://github.com/anthonytao80-crypto/ForeAct3D">paper</a>
+              <span class="sep">/</span>
+              <a href="https://github.com/anthonytao80-crypto/ForeAct3D">code</a>
+            </div>
+            <p class="pub-desc">
+              ForeAct3D grounds future semantic 3D scene prediction in policy-generated actions and physical consistency to improve VLA policies without requiring future prediction at inference.
+            </p>
+          </div>
+        </div>
 
 
       <!-- RayMap3R -->
@@ -136,7 +232,7 @@
               <strong>Feiran Wang</strong>,
               <a href="https://tomyan555.github.io/">Yan Yan</a>
             </div>
-            <div class="pub-venue">Preprint</div>
+            <div class="pub-venue pub-preprint">Preprint</div>
             <div class="pub-links">
               <a href="https://yixn965.github.io/LIST3R/">project page</a>
               <span class="sep">/</span>
@@ -187,35 +283,6 @@
         </div>
 
 
-
-        <!-- GPF -->
-        <div class="pub-item">
-          <div class="pub-thumb">
-            <div class="video-overlay" id="gpf_video">
-              <video width="100%" height="100%" muted autoplay loop playsinline webkit-playsinline>
-                <source src="image/gpf/gpf_small_compat.mp4" type="video/mp4">
-              </video>
-            </div>
-            <img src="image/gpf/gpf_small_poster.jpg" alt="GPF">
-          </div>
-          <div class="pub-info">
-            <a href="https://arxiv.org/abs/2512.12459" class="pub-title">From Particles to Fields: Reframing Photon Mapping with Continuous Gaussian Photon Fields</a>
-            <div class="pub-authors">
-              <a href="https://scholar.google.com/citations?user=NsYqGP8AAAAJ&hl=en">Jiachen Tao</a>,
-              <a href="https://planche.me/">Benjamin Planche</a>,
-              ...,
-              <strong>Feiran Wang</strong>,
-              ...,
-              <a href="https://scholar.google.com/citations?user=S2BT6ogAAAAJ&hl=en">Terrence Chen</a>,
-              <a href="https://tomyan555.github.io/">Yan Yan</a>,
-              <a href="https://wuziyan.com/">Ziyan Wu</a>
-            </div>
-            <div class="pub-venue">Preprint</div>
-            <p class="pub-desc">
-              GPF reformulates photon mapping as a continuous radiance field of 3D Gaussian primitives, achieving photon-level accuracy for global illumination with greatly reduced computation.
-            </p>
-          </div>
-        </div>
 
         <!-- CogniMap3D -->
         <div class="pub-item">
@@ -279,6 +346,35 @@
             </div>
             <p class="pub-desc">
               Rooted in the X-ray imaging process, X-Field presents a representation specifically for high-quality X-ray Novel View Synthesis and CT Reconstruction.
+            </p>
+          </div>
+        </div>
+
+        <!-- GPF -->
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <div class="video-overlay" id="gpf_video">
+              <video width="100%" height="100%" muted autoplay loop playsinline webkit-playsinline>
+                <source src="image/gpf/gpf_small_compat.mp4" type="video/mp4">
+              </video>
+            </div>
+            <img src="image/gpf/gpf_small_poster.jpg" alt="GPF">
+          </div>
+          <div class="pub-info">
+            <a href="https://arxiv.org/abs/2512.12459" class="pub-title">From Particles to Fields: Reframing Photon Mapping with Continuous Gaussian Photon Fields</a>
+            <div class="pub-authors">
+              <a href="https://scholar.google.com/citations?user=NsYqGP8AAAAJ&hl=en">Jiachen Tao</a>,
+              <a href="https://planche.me/">Benjamin Planche</a>,
+              ...,
+              <strong>Feiran Wang</strong>,
+              ...,
+              <a href="https://scholar.google.com/citations?user=S2BT6ogAAAAJ&hl=en">Terrence Chen</a>,
+              <a href="https://tomyan555.github.io/">Yan Yan</a>,
+              <a href="https://wuziyan.com/">Ziyan Wu</a>
+            </div>
+            <div class="pub-venue pub-preprint">Preprint</div>
+            <p class="pub-desc">
+              GPF reformulates photon mapping as a continuous radiance field of 3D Gaussian primitives, achieving photon-level accuracy for global illumination with greatly reduced computation.
             </p>
           </div>
         </div>
@@ -382,17 +478,17 @@
 
       <!-- Research Mentorship Section -->
       <h2 class="section-heading">Research Mentorship</h2>
-      <ul class="activity-list">
+      <ul class="activity-list mentorship-list">
         <li>
-          <strong><a href="https://www.linkedin.com/in/vickie-chen-b22bb5273/">Vickie Chen</a></strong> &middot; Rensselaer Polytechnic Institute, B.S. <em>currently</em> UIC, RA &middot; Self-Evolving Agent
+          <strong><a href="https://www.linkedin.com/in/zhetao">Zhe Tao</a></strong> &middot; UIUC, M.S., <em>currently</em> UIC, RA &middot; <a href="https://github.com/anthonytao80-crypto/ForeAct3D">ForeAct3D</a> (co-author)
           <span class="award-date">(Feb 2026 - <em>present</em>)</span>
         </li>
         <li>
-          <strong><a href="https://www.linkedin.com/in/zhetao">Zhe Tao</a></strong> &middot; UIUC, M.S., <em>currently</em> UIC, RA &middot; 3D VLA Models
+          <strong><a href="https://www.linkedin.com/in/vickie-chen-b22bb5273/">Vickie Chen</a></strong> &middot; Rensselaer Polytechnic Institute, B.S. <em>currently</em> UIC, RA &middot; SEVA (co-author)
           <span class="award-date">(Feb 2026 - <em>present</em>)</span>
         </li>
         <li>
-          <strong><a href="https://yixn965.github.io/">Jing Gao</a> &middot; Beijing Jiaotong University, B.S. <em>to</em> Ph.D. &middot; <a href="https://yixn965.github.io/LIST3R/">LIST3R</a> (co-author)
+          <strong><a href="https://yixn965.github.io/">Jing Gao</a></strong> &middot; Beijing Jiaotong University, B.S. <em>to</em> Ph.D. &middot; <a href="https://yixn965.github.io/LIST3R/">LIST3R</a> (co-author)
           <span class="award-date">(Sep 2025 - July 2026)</span>
         </li>
         <li>
