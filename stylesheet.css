@@ -169,6 +169,18 @@ a:hover, a:focus {
   display: inline-block;
 }
 
+.news-linkedin {
+  display: inline-flex;
+  vertical-align: -0.15em;
+  margin-left: 4px;
+  color: #0a66c2;
+}
+
+.news-linkedin svg {
+  width: 1em;
+  height: 1em;
+}
+
 /* ===== Publication / Project Cards ===== */
 .pub-list {
   display: flex;
