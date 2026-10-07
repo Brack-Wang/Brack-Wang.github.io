@@ -237,6 +237,10 @@ a:hover, a:focus {
   object-fit: contain;
 }
 
+#kepler4d .pub-thumb {
+  transform: scale(0.8);
+}
+
 .pub-info {
   flex: 1;
   display: flex;
