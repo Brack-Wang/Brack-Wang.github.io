@@ -212,7 +212,8 @@ a:hover, a:focus {
   align-self: center;
 }
 
-.pub-thumb img {
+.pub-thumb img,
+.pub-thumb > video {
   width: 100%;
   height: auto;
   display: block;
@@ -237,20 +238,6 @@ a:hover, a:focus {
   height: 100%;
   object-fit: cover;
   border-radius: 6px;
-}
-
-.pub-thumb-4by3 {
-  aspect-ratio: 4 / 3;
-  display: flex;
-  align-items: center;
-}
-
-.pub-thumb-4by3 .video-overlay video {
-  object-fit: contain;
-}
-
-#kepler4d .pub-thumb {
-  transform: scale(0.8);
 }
 
 .pub-info {
