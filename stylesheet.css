@@ -351,6 +351,7 @@ a:hover, a:focus {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  font-size: 16px;
 }
 
 .work-item {
@@ -379,22 +380,18 @@ a:hover, a:focus {
 }
 
 .work-role {
-  font-size: 16px;
   font-weight: 600;
   color: #2d3436;
   margin-bottom: 2px;
 }
 
 .work-meta {
-  font-size: 13px;
   color: #999;
   margin-bottom: 6px;
 }
 
 .work-desc {
-  font-size: 13px;
   color: #333;
-  line-height: 1.55;
 }
 
 /* ===== Academic Activities Section ===== */
@@ -537,7 +534,7 @@ span.highlight {
     font-size: 12px;
   }
 
-  .news-list li {
+  .news-list li, .work-list {
     font-size: 14px;
   }
 
