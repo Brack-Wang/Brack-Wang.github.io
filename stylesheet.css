@@ -182,6 +182,27 @@ a:hover, a:focus {
 }
 
 /* ===== Publication / Project Cards ===== */
+.publication-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
+
+.publication-heading h2 {
+  font: inherit;
+}
+
+.publication-note {
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #777;
+  text-align: right;
+}
+
 .pub-list {
   display: flex;
   flex-direction: column;
